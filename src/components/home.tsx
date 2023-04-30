@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { FaYoutube, FaInstagramSquare, FaLinkedin, FaFacebookSquare, FaGithub } from 'react-icons/fa'
@@ -15,7 +16,7 @@ export default function Home () {
             />
             <div className="md:ml-14 md:text-left text-center md:mt-0 mt-4 space-y-2">
               <h1 className="text-4xl font-bold break-words text-green-500 mb-2">
-                Hey! I&apos;m 2x1 <img className="wave w-12 " src="hand.png"/>
+                Hey! I&apos;m 2x1 <img className="wave w-12 " alt="hand" src="hand.png"/>
               </h1>
               <p className="text-md font-semibold py-2 text-gray-700 break-words">
                 I&aposm a dedicated fullstack developer from the United States with over 2 years of experience. 
