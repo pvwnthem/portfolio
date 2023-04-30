@@ -35,12 +35,12 @@ export default function Home () {
             </div>
           </div>
         </div>
-        <div className="w-full text-center space-y-2 flex flex-wrap justify-center items-center mt-4">
-        <div className="text-xl mt-2 font-semibold px-2">
+        <div className="w-full text-center flex flex-wrap justify-center items-center mt-4">
+        <div className="text-xl font-semibold px-2">
             Tech Stack
           </div>
           <span className="font-bold text-xl mr-4 px-2">|</span>
-  <div className="flex flex-wrap justify-center items-center">
+  <div className="flex flex-wrap justify-center md:space-x-4 space-x-2 items-center">
     <div className="rounded-full w-16 h-16 flex items-center justify-center shadow-xl">
       <img src="tech-stack/ts.png" className="w-8" alt="TypeScript" />
     </div>
