@@ -19,7 +19,7 @@ export default function Home () {
                 Hey! I&apos;m 2x1 <img className="wave w-12 " alt="hand" src="hand.png"/>
               </h1>
               <p className="text-md font-semibold py-2 text-gray-700 break-words">
-                I&aposm a dedicated fullstack developer from the United States with over 2 years of experience. 
+                I&apos;m a dedicated fullstack developer from the United States with over 2 years of experience. 
               </p>
               <div className="flex py-2 space-x-4 md:justify-normal justify-center ">
                 <a href="">
