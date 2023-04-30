@@ -9,3 +9,26 @@
   right: 0;
   z-index: 100;
 }
+
+/* set the width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 6px;
+}
+
+/* set the background color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+/* set the color and style of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(22 163 74);
+  border-radius: 6px;
+  border: 3px solid #f5f5f5;
+}
+
+/* set the color of the scrollbar thumb when hovering over it */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(22 163 74);
+}
