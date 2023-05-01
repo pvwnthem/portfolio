@@ -10,9 +10,9 @@ export default function Home () {
         <div className="flex justify-center">
           <div className="md:w-1/2 w-full md:flex items-center">
             <img
-              src="https://via.placeholder.com/300x300"
+              src="pfp1.jpg"
               alt="Placeholder image"
-              className="w-lg shadow-lg mx-auto transform transition duration-300 ease-in hover:scale-110 hover:shadow-xl rounded-full"
+              className="w-1/3 shadow-lg mx-auto transform transition duration-300 ease-in hover:scale-110 hover:shadow-xl rounded-full"
             />
             <div className="md:ml-14 md:text-left text-center md:mt-0 mt-4 space-y-2">
               <h1 className="text-4xl font-bold break-words text-green-500 mb-2">

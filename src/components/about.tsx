@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div id="about" className="py-6 md:py-16 bg-white">
+    <div id="about" className="py-6 md:py-16 md:h-screen flex bg-white">
       <div className="md:flex md:flex-col md:items-center md:justify-center">
         <div className="md:w-1/2  md:flex md:space-x-4">
           <img
