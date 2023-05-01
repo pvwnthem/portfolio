@@ -23,13 +23,13 @@ export default function Home () {
               </p>
               <div className="flex py-2 space-x-4 md:justify-normal justify-center ">
                 <a href="">
-                  <FaGithub className="text-4xl transform transition duration-300 ease-in hover:scale-125 shadow-lg rounded-full"/>
+                  <FaGithub className="text-4xl transform transition duration-300 ease-in hover:scale-125 rounded-full"/>
                 </a>
                 <a>
-                  <FaLinkedin className="text-4xl transform transition duration-300 ease-in hover:scale-125 shadow-lg "/>
+                  <FaLinkedin className="text-4xl transform transition duration-300 ease-in hover:scale-125  "/>
                 </a>
                 <a>
-                  <FaYoutube className="text-4xl transform transition duration-300 ease-in hover:scale-125 shadow-lg "/>
+                  <FaYoutube className="text-4xl transform transition duration-300 ease-in hover:scale-125 "/>
                 </a>
               </div>
             </div>
