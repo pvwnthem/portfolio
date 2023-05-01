@@ -12,7 +12,7 @@ export default function Projects () {
                     {projects.map((project: project, j: number) => {
                         return (
                             <>
-                                <ProjectBox project={project} index={j}/>
+                                <ProjectBox key={j} project={project} index={j}/>
                             </>
                         )
                     })}
