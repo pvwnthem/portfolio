@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div id="about" className="py-6 md:py-16 bg-white">
       <div className="md:flex md:flex-col md:items-center md:justify-center">
-        <div className="md:w-1/2 border md:flex md:space-x-4">
+        <div className="md:w-1/2  md:flex md:space-x-4">
           <img
             src="https://via.placeholder.com/400x400"
             alt="Placeholder image"

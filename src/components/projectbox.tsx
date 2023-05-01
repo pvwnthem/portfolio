@@ -6,14 +6,14 @@ export default function ProjectBox({ project, index }: { project: project, index
   return (
     <div className={`flex flex-col ${ index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} bg-white rounded-xl mt-6 h-96`}>
       
-      <div className="md:w-1/2 p-4 border flex justify-center items-center">
+      <div className="md:w-1/2 p-4  flex justify-center items-center">
         {/* add project image or video */}
       </div>
-      <div className="md:w-1/2 p-4 border flex flex-col justify-center">
+      <div className="md:w-1/2 p-4  flex flex-col justify-center">
         <h1 className="font-bold text-lg uppercase text-gray-700 text-center mt-2">{project.title}</h1>
         <p className="mt-4 text-gray-500 px-8 break-words">{project.description}</p>
         <div className="mt-8 space-x-2 mx-auto">
-          {project.tags.map((tag) => <span key={1} className="p-2 bg-white shadow-xl rounded-md border">{tag}</span>)}
+          {project.tags.map((tag) => <span key={1} className="p-2 bg-white shadow-xl rounded-md ">{tag}</span>)}
         </div>
         <div className="flex w-full mt-4 h-full justify-end items-end">   
           <a href={project.sourcelink} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-500 hover:text-gray-700 transition">
