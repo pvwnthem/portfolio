@@ -18,10 +18,11 @@ export default function ProjectBox({ project, index }: { project: project, index
         <div className="flex w-full mt-4 h-full justify-end items-end">   
           <a href={project.sourcelink} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-500 hover:text-gray-700 transition">
             <FaGithub className="text-4xl" />
-            <span className="ml-2">Source</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-4 w-4 ml-1">
-              <path fill="currentColor" d="M16.59 9H9.41c-.65 0-1.18.53-1.18 1.18v4.64c0 .65.53 1.18 1.18 1.18h2.35v2.35c0 .65.53 1.18 1.18 1.18h1.18c.65 0 1.18-.53 1.18-1.18v-2.35h2.35c.65 0 1.18-.53 1.18-1.18v-4.64c0-.65-.53-1.18-1.18-1.18zm-6.35 6.35v-2.35h-2.35v2.35h2.35z"/>
-            </svg>
+            <span className="ml-2 px-2">Source</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+</svg>
+
           </a>
         </div>
       </div>
