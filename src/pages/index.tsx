@@ -1,5 +1,6 @@
 import Home from "@/components/home";
 import About from "@/components/about";
+import Projects from "@/components/projects";
 import { Navbar } from "@/components/navbar";
 import useScrollSnap from 'react-use-scroll-snap';
 import React, { useRef } from "react";
@@ -14,6 +15,7 @@ export default function Index() {
     <Navbar />
     <Home />
     <About />
+    <Projects />
    </div>
   )
 }
