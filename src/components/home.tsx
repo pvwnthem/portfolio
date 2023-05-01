@@ -6,7 +6,7 @@ import { FaYoutube, FaInstagramSquare, FaLinkedin, FaFacebookSquare, FaGithub } 
 export default function Home () {
   return (
     <>
-      <div className="flex flex-col bg-gray-100 justify-center h-screen">
+      <div id="home" className="flex flex-col bg-gray-100 justify-center h-screen">
         <div className="flex justify-center">
           <div className="md:w-1/2 w-full md:flex items-center">
             <img

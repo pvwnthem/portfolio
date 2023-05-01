@@ -4,6 +4,11 @@ import React, { useState } from 'react';
 export const Navbar = (): JSX.Element => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  function scroll (to: string) {
+    var element = document.getElementById(to)
+    element?.scrollIntoView({behavior:"smooth", block: "end", inline:"nearest"});
+  }
+
   return (
     <div className="navbar">
       <nav className="bg-white shadow-sm">
@@ -49,21 +54,21 @@ export const Navbar = (): JSX.Element => {
               </Link>
             </div>
             <div className="hidden lg:flex space-x-4 lg:items-center lg:justify-end lg:flex-1">
-              <a
-                href="/a"
+              <button
+                onClick={() => {scroll('home')}}
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-green-100 focus:outline-none focus:text-green-600 focus:bg-green-100">
                 Home
-              </a>
-              <a
-                href="/a"
+              </button>
+              <button
+                onClick={() => {scroll('about')}}
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-green-100 focus:outline-none focus:text-green-600 focus:bg-green-100">
                 About
-              </a>
-              <a
-                href="/a"
+              </button>
+              <button
+                onClick={() => {scroll('projects')}}
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-green-100 focus:outline-none focus:text-green-600 focus:bg-green-100">
                 Projects
-              </a>
+              </button>
               <button className=" px-3 py-2 bg-green-600 hover:bg-green-700 rounded-md text-white">
                 Contact
               </button>

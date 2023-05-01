@@ -4,7 +4,7 @@ import React from "react";
 export default function About () {
   return (
     <>
-     <div className="w-full h-screen py-16 bg-white md:flex flex-col items-center justify-center">
+     <div id="about" className="w-full h-screen py-16 bg-white md:flex flex-col items-center justify-center">
         <div className="md:w-1/2 w-full md:space-x-14 space-x-2 md:px-0 px-2 border md:flex">
             <img
               src="https://via.placeholder.com/400x400"
