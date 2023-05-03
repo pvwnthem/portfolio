@@ -4,6 +4,7 @@ import Projects from "@/components/projects";
 import { Navbar } from "@/components/navbar";
 import useScrollSnap from 'react-use-scroll-snap';
 import React, { useRef } from "react";
+import Contact from "@/components/contact";
 
 export default function Index() {
 
@@ -16,6 +17,7 @@ export default function Index() {
     <Home />
     <About />
     <Projects />
+    <Contact />
    </div>
   )
 }
