@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa'
 export default function ProjectBox({ project, index }: { project: project, index: number }) {
   return (
     <div className={`flex flex-col md:flex-row ${ index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} bg-white rounded-xl mt-6 h-auto md:h-96`}>
-      <div className="md:w-1/2 p-4  flex justify-center items-center">
+      <div className="md:w-1/2 p-4 flex justify-center items-center">
         <img src={project.imageLink} alt="projectimage" className="rounded-xl py-4 w-full" />
       </div>
       <div className="md:w-1/2 p-4  flex flex-col justify-center">
