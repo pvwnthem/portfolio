@@ -6,7 +6,7 @@ export default function ProjectBox({ project, index }: { project: project, index
   return (
     <div className={`flex flex-col md:flex-row ${ index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} bg-white rounded-xl mt-6 h-auto md:h-96`}>
       <div className="md:w-1/2 p-4 flex justify-center items-center">
-        <img src={project.imageLink} alt="projectimage" className="rounded-xl py-4 w-full" />
+        <img src={project.imageLink} alt="projectimage" className="rounded-xl py-4 w-full md:px-8" />
       </div>
       <div className="md:w-1/2 p-4  flex flex-col justify-center">
         <h1 className="font-bold text-lg uppercase text-gray-700 text-center mt-2">{project.title}</h1>
