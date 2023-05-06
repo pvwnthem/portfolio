@@ -16,7 +16,7 @@ export default function Contact () {
                     <div className="rounded-full shadow-xl p-6">
                         <FaEnvelope className="w-6 h-6 text-green-500" />
                     </div>
-                    <a href="mailto:yourname@example.com" className="ml-4">yourname@example.com</a>
+                    <a href="mailto:torben@2x1.dev" className="ml-4">torben@2x1.dev</a>
                 </span>
                 
                 
