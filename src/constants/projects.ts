@@ -10,17 +10,10 @@ export interface project {
 
 export const projects: project[] = [
     {
-        title: "Project",
-        description: "A project i worked onA project i work project i worked onA project i worked onA project i worked onA project i worked onA project i worked onA project i worked onA project i worked",
-        tags: ["React", "Tailwind CSS"],
-        sourcelink: "https://github.com",
-        imageLink: "https://via.placeholder.com/400x400"
+        title: "Proof of Work Blockchain",
+        description: "I created a proof of work blockchain using typescript and crypto-js. This project taught me a lot about how blockchains work and how people interact with them. This project consists of a simple, object-oriented implementation of a proof of work blockchain.",
+        tags: ["Typescript", "Cryptography", "Blockchain"],
+        sourcelink: "https://github.com/pvwnthem/pow-blockchain",
+        imageLink: "https://101blockchains.com/wp-content/uploads/2021/03/blockchain1a.png"
     },
-    {
-        title: "Project",
-        description: "A project i worked onA project  i worked onA project i work project i worked onked",
-        tags: ["React", "Tailwind CSS"],
-        sourcelink: "https://github.com",
-        imageLink: "https://via.placeholder.com/400x400"
-    }
 ]
