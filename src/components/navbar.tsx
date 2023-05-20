@@ -117,22 +117,22 @@ export const Navbar = (): JSX.Element => {
         {/* Mobile menu, toggle className based on menu state */}
         <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} lg:hidden`}>
           <div className="px-2 pt-2 pb-3 space-y-2">
-            <a
-              href="/a"
+            <button
+              onClick={() => {scroll('home')}}
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-100 focus:outline-none focus:text-green-600 focus:bg-green-100">
               Home
-            </a>
-            <a
-              href="/a"
+            </button>
+            <button
+              onClick={() => {scroll('about')}}
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-100 focus:outline-none focus:text-green-600 focus:bg-green-100">
               About
-            </a>
-            <a
-              href="/a"
+            </button>
+            <button
+              onClick={() => {scroll('projects')}}
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-green-600 hover:bg-green-100 focus:outline-none focus:text-green-600 focus:bg-green-100">
               Projects
-            </a>
-            <button className=" px-3 py-2 w-full hover:bg-green-700 bg-green-600 rounded-md text-white">
+            </button>
+            <button onClick={() => {scroll('contact')}} className=" px-3 py-2 w-full hover:bg-green-700 bg-green-600 rounded-md text-white">
               Contact
             </button>
           </div>
