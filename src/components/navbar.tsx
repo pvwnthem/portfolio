@@ -69,7 +69,7 @@ export const Navbar = (): JSX.Element => {
                 className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-green-100 focus:outline-none focus:text-green-600 focus:bg-green-100">
                 Projects
               </button>
-              <button  onClick={() => {scroll('projects')}} className=" px-3 py-2 bg-green-600 hover:bg-green-700 rounded-md text-white">
+              <button  onClick={() => {scroll('contact')}} className=" px-3 py-2 bg-green-600 hover:bg-green-700 rounded-md text-white">
                 Contact
               </button>
             </div>
