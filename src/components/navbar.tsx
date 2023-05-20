@@ -5,6 +5,7 @@ export const Navbar = (): JSX.Element => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   function scroll (to: string) {
+    setIsMobileMenuOpen(false)
     var element = document.getElementById(to)
     element?.scrollIntoView({behavior:"smooth", block: "end", inline:"nearest"});
   }
