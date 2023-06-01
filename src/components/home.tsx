@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
-import { FaYoutube, FaInstagramSquare, FaLinkedin, FaFacebookSquare, FaGithub } from 'react-icons/fa'
+import { FaYoutube, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 export default function Home () {
   return (
