@@ -4,6 +4,7 @@ import Projects from "@/components/projects";
 import { Navbar } from "@/components/navbar";
 import React, { useRef } from "react";
 import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 export default function Index() {
   
@@ -14,6 +15,7 @@ export default function Index() {
     <About />
     <Projects />
     <Contact />
+    <Footer />
    </div>
   )
 }
