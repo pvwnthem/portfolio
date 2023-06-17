@@ -16,4 +16,12 @@ export const projects: project[] = [
         sourcelink: "https://github.com/pvwnthem/pow-blockchain",
         imageLink: "https://101blockchains.com/wp-content/uploads/2021/03/blockchain1a.png"
     },
+    {
+        title: "Encryption and Decryption Website",
+        description: "I created a webiste using react, typescript, and crypto-js's subtle module. This project taught me lots about cryptography and how handling certain user interactions works in javascript. This projects consists of a full website which is fully functional and is hosted at https://crypt.2x1.dev",
+        tags: ["Typescript", "Blockchain"],
+        sourcelink: "https://github.com/pvwnthem/encryption-site",
+        imageLink: "https://www.freeiconspng.com/thumbs/lock-icon/lock-icon-11.png"
+    },
+
 ]
