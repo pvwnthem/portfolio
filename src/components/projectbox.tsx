@@ -11,6 +11,9 @@ export default function ProjectBox({ project, index }: { project: project, index
       <div className="md:w-1/2 p-4  flex flex-col justify-center">
         <h1 className="font-bold text-lg uppercase text-gray-700 text-center mt-2">{project.title}</h1>
         <p className="mt-4 text-gray-500 break-words">{project.description}</p>
+        {project.liveDemo && (
+          <a className="mt-4 text-blue-600"  href={project.liveDemo} >{project.liveDemo}</a>
+        )}
         <div className="mt-8 flex flex-wrap">
           {project.tags.map((tag) => <span key={1} className="p-2 bg-white shadow-xl rounded-md mr-2 mb-2">{tag}</span>)}
         </div>
