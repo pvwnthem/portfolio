@@ -18,7 +18,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({ project, index }) => {
       </div>
       <div className="md:w-1/2 p-4 flex flex-col justify-center">
         <h1 className="font-bold text-lg uppercase text-gray-700 text-center mt-2">{project.title}</h1>
-        <p className="mt-4 text-gray-500 break-words">{project.description}</p>
+        <div className="mt-4 text-gray-500 break-words overflow-y-auto max-h-48">{project.description}</div>
         {project.liveDemo && (
           <a className="mt-2 text-blue-600 hover:underline" href={project.liveDemo}>
             {project.liveDemo}
