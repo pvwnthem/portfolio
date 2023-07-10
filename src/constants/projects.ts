@@ -29,7 +29,7 @@ export const projects: project[] = [
         title: "Golang Terminal Password Manager",
         description: "I created a terminal password manager using golang. This project taught me a lot about how to use golang and how to use the terminal in golang. This project consists of a fully functional, encrypted, pass-like terminal password manager.",
         tags: ["Golang", "Cli"],
-        sourceLink: "https://github/com/pvwnthem/gopwd",
+        sourceLink: "https://github.com/pvwnthem/gopwd",
         imageLink: "https://www.freeiconspng.com/uploads/black-key-icon-7.png"
     },
 
