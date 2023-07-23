@@ -34,7 +34,7 @@ export const projects: project[] = [
     },
     {
         title: "Svelte Sorting Algorithm Visualizer",
-        description: "I created a sorting algorithm visualizer using svelte. This project taught me a lot about how to use svelte and how to use svelte. This project consists of a fully functional, web-based sorting algorithm visualizer.",
+        description: "I created a sorting algorithm visualizer using svelte. This project taught me a lot about how to use svelte and about several different common sorting algorithms. This project consists of a fully functional, web-based sorting algorithm visualizer.",
         tags: ["Svelte", "Alogrithms"],
         liveDemo: "https://sort.2x1.dev",
         sourceLink: "https://github.com/pvwnthem/Svelte-Algorithm-Visualizer",
