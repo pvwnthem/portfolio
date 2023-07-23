@@ -32,6 +32,15 @@ export const projects: project[] = [
         sourceLink: "https://github.com/pvwnthem/gopwd",
         imageLink: "https://www.freeiconspng.com/uploads/black-key-icon-7.png"
     },
+    {
+        title: "Svelte Sorting Algorithm Visualizer",
+        description: "I created a sorting algorithm visualizer using svelte. This project taught me a lot about how to use svelte and how to use svelte. This project consists of a fully functional, web-based sorting algorithm visualizer.",
+        tags: ["Svelte", "Alogrithms"],
+        liveDemo: "https://sort.2x1.dev",
+        sourceLink: "https://github.com/pvwnthem/Svelte-Algorithm-Visualizer",
+        imageLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Svelte_logo_by_gengns.svg/514px-Svelte_logo_by_gengns.svg.png?20191219134736"
+
+    }
 
 
 ]
